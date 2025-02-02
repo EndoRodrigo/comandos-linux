@@ -40,10 +40,10 @@ Copia archivos o directorios de una ubicación a otra.
 ```bash
 cp archivo.txt /home/usuario/
 ``` 
-mv
-
-Descripción: Mueve o renombra archivos o directorios.
-Ejemplo: mv archivo.txt /home/usuario/
+Mueve o renombra archivos o directorios.
+```bash
+mv archivo.txt /home/usuario/
+``` 
 rm
 
 Descripción: Elimina archivos o directorios.

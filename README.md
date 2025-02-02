@@ -45,22 +45,24 @@ Mueve o renombra archivos o directorios.
 mv archivo.txt /home/usuario/
 ``` 
 rm
+Elimina archivos o directorios.
+```bash
+rm archivo.txt
+```
+Crea un archivo vacío o actualiza la fecha y hora de acceso de un archivo existente.
+```bash
+touch archivo.txt
+```
+Crea un nuevo directorio.
+```bash
+mkdir nuevo_directorio
+```
+Elimina un directorio vacío.
+```bash
+rmdir viejo_directorio
+```
 
-Descripción: Elimina archivos o directorios.
-Ejemplo: rm archivo.txt
-touch
-
-Descripción: Crea un archivo vacío o actualiza la fecha y hora de acceso de un archivo existente.
-Ejemplo: touch archivo.txt
-mkdir
-
-Descripción: Crea un nuevo directorio.
-Ejemplo: mkdir nuevo_directorio
-rmdir
-
-Descripción: Elimina un directorio vacío.
-Ejemplo: rmdir viejo_directorio
-Comandos para permisos y propietarios:
+## Comandos para permisos y propietarios:
 chmod
 
 Descripción: Cambia los permisos de acceso a archivos o directorios.

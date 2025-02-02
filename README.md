@@ -71,38 +71,40 @@ Cambia el propietario y el grupo de un archivo o directorio.
 ```bash
 chown usuario:grupo archivo.txt
 ```
-Ejemplo: 
-Comandos de búsqueda y filtrado:
-grep
 
-Descripción: Busca un patrón dentro de un archivo o salida de comandos.
-Ejemplo: grep "error" archivo.log
-find
+## Comandos de búsqueda y filtrado:
+Busca un patrón dentro de un archivo o salida de comandos.
+```bash
+grep "error" archivo.log
+```
+Busca archivos y directorios en una ubicación especificada.
+```bash
+find /home/usuario/ -name "*.txt"
+```
+Busca archivos rápidamente en el sistema utilizando una base de datos de ubicación pre-generada.
+```bash
+locate archivo.txt
+```
 
-Descripción: Busca archivos y directorios en una ubicación especificada.
-Ejemplo: find /home/usuario/ -name "*.txt"
-locate
-
-Descripción: Busca archivos rápidamente en el sistema utilizando una base de datos de ubicación pre-generada.
-Ejemplo: locate archivo.txt
-Comandos para gestión de procesos:
-ps
-
-Descripción: Muestra los procesos en ejecución.
-Ejemplo: ps aux
+## Comandos para gestión de procesos:
+Muestra los procesos en ejecución.
+```bash
+ps aux
+```
+Muestra los procesos en ejecución en tiempo real y estadísticas del sistema.
+```bash
 top
+```
+Envía señales a un proceso (como terminarlo).
+```bash
+kill 1234 (termina el proceso con PID 1234)
+```
+Termina todos los procesos con el nombre especificado.
+```bash
+killall firefox (termina todos los procesos de Firefox)
+```
 
-Descripción: Muestra los procesos en ejecución en tiempo real y estadísticas del sistema.
-Ejemplo: top
-kill
-
-Descripción: Envía señales a un proceso (como terminarlo).
-Ejemplo: kill 1234 (termina el proceso con PID 1234)
-killall
-
-Descripción: Termina todos los procesos con el nombre especificado.
-Ejemplo: killall firefox (termina todos los procesos de Firefox)
-Comandos para administración del sistema:
+## Comandos para administración del sistema:
 sudo
 
 Descripción: Ejecuta un comando con privilegios de superusuario (root).

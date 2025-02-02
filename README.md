@@ -163,12 +163,7 @@ unzip archivo.zip
 ```
 
 ## Comandos para manejo del historial:
+Muestra el historial de comandos ejecutados en la terminal.
+ ```bash
 history
-
-Descripción: Muestra el historial de comandos ejecutados en la terminal.
-Ejemplo: history
-!n
-
-Descripción: Ejecuta el comando en la posición n del historial.
-Ejemplo: !20 (ejecuta el comando número 20 del historial)
-¡Espero que esta organización te sea útil! Si tienes alguna otra duda o necesitas más información, no dudes en preguntar.
+```

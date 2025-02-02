@@ -121,46 +121,48 @@ Muestra información sobre el espacio libre y usado en los sistemas de archivos 
 ```bash
 df -h
 ```
-Ejemplo: 
-free
-
-Descripción: Muestra información sobre el uso de la memoria del sistema.
-Ejemplo: free -h
+Muestra información sobre el uso de la memoria del sistema.
+```bash
+free -h
+```
+Muestra el tiempo de actividad del sistema y la carga promedio.
+```bash
 uptime
+```
+Muestra el manual de un comando.
+```bash
+man ls
+```
 
-Descripción: Muestra el tiempo de actividad del sistema y la carga promedio.
-Ejemplo: uptime
-man
+## Comandos para gestión de paquetes (en distribuciones basadas en Debian/Ubuntu):
+Gestor de paquetes para instalar, actualizar o eliminar software.
+```bash
+sudo apt-get install paquete
+```
+Comando alternativo para gestionar paquetes (más sencillo que apt-get).
+ ```bash
+sudo apt update
+```
+Herramienta para instalar, eliminar y gestionar paquetes .deb.
+ ```bash
+sudo dpkg -i paquete.deb
+```
 
-Descripción: Muestra el manual de un comando.
-Ejemplo: man ls
-Comandos para gestión de paquetes (en distribuciones basadas en Debian/Ubuntu):
-apt-get
+## Comandos para compresión y archivado:
+Crea o extrae archivos tar (archivos comprimidos).
+ ```bash
+tar -czvf archivo.tar.gz carpeta/
+```
+Comprime archivos utilizando el algoritmo gzip.
+ ```bash
+gzip archivo.txt
+```
+Extrae archivos comprimidos en formato .zip.
+ ```bash
+unzip archivo.zip
+```
 
-Descripción: Gestor de paquetes para instalar, actualizar o eliminar software.
-Ejemplo: sudo apt-get install paquete
-apt
-
-Descripción: Comando alternativo para gestionar paquetes (más sencillo que apt-get).
-Ejemplo: sudo apt update
-dpkg
-
-Descripción: Herramienta para instalar, eliminar y gestionar paquetes .deb.
-Ejemplo: sudo dpkg -i paquete.deb
-Comandos para compresión y archivado:
-tar
-
-Descripción: Crea o extrae archivos tar (archivos comprimidos).
-Ejemplo: tar -czvf archivo.tar.gz carpeta/
-gzip
-
-Descripción: Comprime archivos utilizando el algoritmo gzip.
-Ejemplo: gzip archivo.txt
-unzip
-
-Descripción: Extrae archivos comprimidos en formato .zip.
-Ejemplo: unzip archivo.zip
-Comandos para manejo del historial:
+## Comandos para manejo del historial:
 history
 
 Descripción: Muestra el historial de comandos ejecutados en la terminal.

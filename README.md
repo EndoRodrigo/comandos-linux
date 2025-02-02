@@ -3,9 +3,9 @@
 ## Comandos para navegación y visualización de archivos:
 ls
 Muestra una lista de archivos y directorios en el directorio actual.
-    ```bash
-    ls -l
-    ``` 
+```bash
+ls -l
+``` 
 
 pwd
 

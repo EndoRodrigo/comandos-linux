@@ -63,14 +63,15 @@ rmdir viejo_directorio
 ```
 
 ## Comandos para permisos y propietarios:
-chmod
-
-Descripción: Cambia los permisos de acceso a archivos o directorios.
-Ejemplo: chmod 755 archivo.sh
-chown
-
-Descripción: Cambia el propietario y el grupo de un archivo o directorio.
-Ejemplo: chown usuario:grupo archivo.txt
+Cambia los permisos de acceso a archivos o directorios.
+```bash
+chmod 755 archivo.sh
+```
+Cambia el propietario y el grupo de un archivo o directorio.
+```bash
+chown usuario:grupo archivo.txt
+```
+Ejemplo: 
 Comandos de búsqueda y filtrado:
 grep
 

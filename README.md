@@ -105,22 +105,23 @@ killall firefox (termina todos los procesos de Firefox)
 ```
 
 ## Comandos para administración del sistema:
-sudo
-
-Descripción: Ejecuta un comando con privilegios de superusuario (root).
-Ejemplo: sudo apt update
-shutdown
-
-Descripción: Apaga o reinicia el sistema.
-Ejemplo: sudo shutdown -h now
-reboot
-
-Descripción: Reinicia el sistema.
-Ejemplo: sudo reboot
-df
-
-Descripción: Muestra información sobre el espacio libre y usado en los sistemas de archivos montados.
-Ejemplo: df -h
+Ejecuta un comando con privilegios de superusuario (root).
+```bash
+sudo apt update
+```
+Apaga o reinicia el sistema.
+```bash
+sudo shutdown -h now
+```
+Reinicia el sistema.
+```bash
+ sudo reboot
+```
+Muestra información sobre el espacio libre y usado en los sistemas de archivos montados.
+```bash
+df -h
+```
+Ejemplo: 
 free
 
 Descripción: Muestra información sobre el uso de la memoria del sistema.

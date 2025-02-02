@@ -14,14 +14,14 @@ Cambia el directorio actual de trabajo.
 ```bash
 cd /home/
 ``` 
-cat
-
-Descripción: Muestra el contenido de un archivo en la terminal.
-Ejemplo: cat archivo.txt
-more
-
-Descripción: Muestra el contenido de un archivo de texto, pero permite paginarlo si es demasiado largo.
-Ejemplo: more archivo.txt
+Muestra el contenido de un archivo en la terminal.
+```bash
+cat archiv.txt
+``` 
+Muestra el contenido de un archivo de texto, pero permite paginarlo si es demasiado largo.
+```bash
+more archiv.txt
+``` 
 less
 
 Descripción: Similar a more, pero permite desplazarse hacia atrás en el archivo.

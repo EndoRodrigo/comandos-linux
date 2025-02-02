@@ -6,15 +6,14 @@ Muestra una lista de archivos y directorios en el directorio actual.
 ```bash
 ls -l
 ``` 
-
+Muestra el directorio de trabajo actual.
+```bash
 pwd
-
-Descripción: Muestra el directorio de trabajo actual.
-Ejemplo: pwd
-cd
-
-Descripción: Cambia el directorio actual de trabajo.
-Ejemplo: cd /home/usuario
+``` 
+Cambia el directorio actual de trabajo.
+```bash
+cd /home/
+``` 
 cat
 
 Descripción: Muestra el contenido de un archivo en la terminal.

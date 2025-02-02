@@ -35,12 +35,11 @@ Muestra las últimas líneas de un archivo.
 tail archivo.txt
 ``` 
 
-
-Comandos para manipulación de archivos:
-cp
-
-Descripción: Copia archivos o directorios de una ubicación a otra.
-Ejemplo: cp archivo.txt /home/usuario/
+## Comandos para manipulación de archivos:
+Copia archivos o directorios de una ubicación a otra.
+```bash
+cp archivo.txt /home/usuario/
+``` 
 mv
 
 Descripción: Mueve o renombra archivos o directorios.

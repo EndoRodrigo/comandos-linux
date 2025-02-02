@@ -16,24 +16,26 @@ cd /home/
 ``` 
 Muestra el contenido de un archivo en la terminal.
 ```bash
-cat archiv.txt
+cat archivo.txt
 ``` 
 Muestra el contenido de un archivo de texto, pero permite paginarlo si es demasiado largo.
 ```bash
-more archiv.txt
+more archivo.txt
 ``` 
-less
+Similar a more, pero permite desplazarse hacia atrás en el archivo.
+```bash
+less archivo.txt
+``` 
+Muestra las primeras líneas de un archivo.
+```bash
+head archivo.txt
+``` 
+Muestra las últimas líneas de un archivo.
+```bash
+tail archivo.txt
+``` 
 
-Descripción: Similar a more, pero permite desplazarse hacia atrás en el archivo.
-Ejemplo: less archivo.txt
-head
 
-Descripción: Muestra las primeras líneas de un archivo.
-Ejemplo: head archivo.txt
-tail
-
-Descripción: Muestra las últimas líneas de un archivo.
-Ejemplo: tail archivo.txt
 Comandos para manipulación de archivos:
 cp
 

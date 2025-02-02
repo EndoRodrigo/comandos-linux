@@ -2,9 +2,11 @@
 
 ## Comandos para navegación y visualización de archivos:
 ls
+Muestra una lista de archivos y directorios en el directorio actual.
+    ```bash
+    ls -l
+    ``` 
 
-Descripción: Muestra una lista de archivos y directorios en el directorio actual.
-Ejemplo: ls -l
 pwd
 
 Descripción: Muestra el directorio de trabajo actual.
